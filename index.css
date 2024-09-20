@@ -11,7 +11,7 @@ body{
 
 @font-face {
     font-family: "Metal Mania";
-    src: url(../src/PlaywriteDEGrund-Regular.ttf);
+    src: url(src/PlaywriteDEGrund-Regular.ttf);
 }
 
 #page-wrapper{
@@ -175,6 +175,7 @@ footer a{
         position: relative;
         max-width: 50%;
     }
+
     main p {
         color: #3C4048;
         font-size: calc(6px + 1vw);
