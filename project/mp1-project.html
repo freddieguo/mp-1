@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mp1-project.css">
+    <title> Resume | Project</title>
+</head>
+<body>
+<header>
+    <h1>Freddie Guo</h1>
+    <p>Welcome to my Online Resume</p>
+</header>
+<div id="page-wrapper">
+<nav>
+    <ul>
+        <li><a href="../home/index.html">Home</a></li>
+        <li><a href="../education/mp1-edu.html">Education</a></li>
+        <li><a href="../experience/mp1-exp.html">Experience</a></li>
+        <li><a href="mp1-project.html">Project</a></li>
+        <li><a href="../skill/mp1-skill.html">Skill</a></li>
+        <li><a href="../certification/mp1-certi.html">Certification</a></li>
+    </ul>
+</nav>
+<main>
+    <h2>Freddie's Calculator</h2>
+    <h4>Two number math calculator</h4>
+    <br>
+    <div id="cal">
+    <div class="input">
+        <div id="first-input"><label for="input-1"></label><input id="input-1"></div>
+        <div id="second-input"><label for="input-2"></label><input id="input-2"></div>
+    </div>
+    <div class="button">
+        <button onclick="add()">+</button>
+        <button onclick="min()">-</button>
+        <button onclick="mul()">*</button>
+        <button onclick="div()">/</button>
+        <button onclick="pow()">^</button>
+        <button onclick="clearEverything()">clear</button>
+    </div>
+    <h2 class="result" id="output"></h2>
+    </div>
+</main>
+</div>
+<footer>
+    <P>All Rights Reserved by Freddie Guo <a href="../credit/mp1-credit.html">Credits</a> &#169;</P>
+</footer>
+
+<script src="mp1-project.js"></script>
+
+</body>
+</html>
